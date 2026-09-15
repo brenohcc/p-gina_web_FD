@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<header>
+<h1>Meu blog</h1>
+<p>Vou compartilhar conhecimentos sobre matemática </p>
+</header>
+  <main>
+<h2>função de segundo grau</h2>
+<p>Por: Breno Henrique Copati Correia</p>
+<p>A função de segundo grau, também chamada de função quadrática, é uma das mais importantes da matemática: sua forma geral é f(x)=ax2+bx+c (com a≠0), e seu gráfico é sempre uma parábola. Ela permite estudar raízes, vértice e concavidade, sendo aplicada em problemas de física, economia e engenharia.
+</p>
+<h3> 📘 Definição
+</h3>
+<p>Função quadrática: f(x)=ax2+bx+c, onde a,b,c∈R e a≠0.
+Domínio: todos os números reais (R).
+Contradomínio: também R, mas a imagem depende da concavidade da parábola.
+</p>
+    <h4> 🔑 Elementos principais</h4>
+<p>Coeficientes:
+a: indica a concavidade (se a>0, parábola voltada para cima; se a<0, para baixo).
+b: influencia a inclinação e posição da parábola.
+c: ponto onde a parábola intercepta o eixo y.
+Raízes (ou zeros da função): valores de x que tornam f(x)=0. Calculadas pela fórmula de Bhaskara:
+x=−b±Δ2a,Δ=b2−4ac
+Δ>0: duas raízes reais distintas.
+Δ=0: uma raiz real dupla.
+Δ<0: não há raízes reais.
+Vértice: ponto máximo ou mínimo da parábola.
+Coordenadas:
+xv=−b2a,yv=−Δ4a
+</p>
+  <h5>📊 Gráfico
+</h5>
+<p>Sempre uma parábola.
+Concavidade:
+a>0: voltada para cima (mínimo no vértice).
+a<0: voltada para baixo (máximo no vértice).
+Interseções:
+Com eixo y: ponto (0,c).
+Com eixo x: as raízes da função (quando existem).
+</p>
+  <h6>⚡ Aplicações práticas
+</h6>
+<p>Física: movimento de projéteis, trajetória parabólica.
+Economia: análise de lucro e custo.
+Engenharia: cálculos estruturais e otimização.
+Quer que eu aprofunde mais em gráficos, aplicações ou em exercícios resolvidos para praticar?
+faça a explicação mais detalhada com todos os tópicos presentes nesse assunto
+A função de segundo grau (ou função quadrática) é uma função polinomial da forma f(x)=ax2+bx+c, com a≠0. Seu gráfico é sempre uma parábola, e o estudo envolve concavidade, vértice, raízes, eixo de simetria, imagem e aplicações práticas em diversas áreas.
+</p>
+  <h7> Passo à Passo para Resolver
+</h7>
+<p>1️⃣ Identificar os coeficientes
+A função está na forma geral f(x)=ax2+bx+c:
+a=1
+b=−4
+c=3
+2️⃣ Calcular o discriminante (Δ)
+Δ=b2−4ac
+Δ=(−4)2−4(1)(3)=16−12=4
+O valor de Δ indica que existem duas raízes reais distintas.
+3️⃣ Aplicar a fórmula de Bhaskara
+x=−b±Δ2a
+Substituindo:
+x=−(−4)±42⋅1
+x=4±22
+x1=4−22=22=1
+x2=4+22=62=3
+Portanto, as raízes são x=1 e x=3.
+4️⃣ Calcular o vértice
+O vértice é dado por:
+xv=−b2a,yv=−Δ4a
+xv=−(−4)2⋅1=42=2
+yv=−44⋅1=−44=−1
+Logo, o vértice é (2,−1).
+5️⃣ Interpretar o gráfico
+Como a=1>0, a parábola é voltada para cima.
+Ela corta o eixo x nos pontos (1,0) e (3,0).
+Corta o eixo y em (0,3).
+O ponto mais baixo da parábola é o vértice (2,−1).
+</p>
+</main>
+</body>
+</html>
