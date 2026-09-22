@@ -5,6 +5,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
+  <style>
+    img {
+    width: 80px;
+    height: 80px;
+    }
+    header {
+    background-color: #183C63;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    }
+    main {
+    background-color: #FFFFFF;
+    color: #183C63;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    }
+    article {
+    display: flex;
+    }
+    div p {
+    font-weight: bold;
+    }
+    .artigo-autor {
+    font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 <header>
@@ -86,6 +117,31 @@ Ela corta o eixo x nos pontos (1,0) e (3,0).
 Corta o eixo y em (0,3).
 O ponto mais baixo da parábola é o vértice (2,−1).
 </p>
+<button>❤️<span>0</span></button>
+<button>👍<span>0</span></button>
+</div>
+  </article>
 </main>
 </body>
+  <script>
+  const botoes = document.querySelectorAll("button");
+  botoes.forEach(function(botao) { 
+  let curtiu = false;
+  
+  botao.addEventListener("click", botaoClicado);
+ 
+  function botaoClicado() {
+  console.log("fui clicado");
+  let texto = botao.querySelector("span");
+ 
+  if (curtiu === false) {
+  texto.textContent++;
+  curtiu = true;
+  } else {
+  texto.textContent--;
+  curtiu = false;
+    }
+  }
+  });
+  </script>
 </html>
